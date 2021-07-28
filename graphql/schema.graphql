@@ -1,7 +1,7 @@
 type Query {
-  segmentSearch(
-    url: String
+  searchSegment(
     userEmail: String
-    selectedFacets: [SelectedFacetInput]
-  ): SelectedFacets @cacheControl(scope: PUBLIC, maxAge: MEDIUM)
+    isAuthenticated: Boolean
+    selectedFacets: [SelectedFacetsInput]
+  ): [SelectedFacets] @cacheControl(scope: PUBLIC, maxAge: MEDIUM)
 }

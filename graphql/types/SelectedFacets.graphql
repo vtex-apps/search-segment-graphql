@@ -1,9 +1,9 @@
-type SelectedFacet {
+type SelectedFacets {
   key: String
   value: String
 }
 
-input SelectedFacetInput {
+input SelectedFacetsInput {
   key: String
   value: String
 }
