@@ -1,0 +1,7 @@
+type Query {
+  segmentSearch(
+    url: String
+    userEmail: String
+    selectedFacets: [SelectedFacetInput]
+  ): SelectedFacets @cacheControl(scope: PUBLIC, maxAge: MEDIUM)
+}
