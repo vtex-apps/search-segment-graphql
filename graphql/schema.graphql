@@ -3,5 +3,5 @@ type Query {
     userEmail: String
     isAuthenticated: Boolean
     selectedFacets: [SelectedFacetsInput]
-  ): [SelectedFacets] @cacheControl(scope: PUBLIC, maxAge: MEDIUM)
+  ): [SelectedFacets] @cacheControl(scope: PUBLIC, maxAge: SHORT)
 }
