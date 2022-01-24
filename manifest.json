@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "search-segment-graphql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Search segment graphql",
   "description": "GraphQL shchema for the search segment",
   "credentialType": "absolute",
